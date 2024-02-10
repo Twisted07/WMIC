@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "Eba",
+        "category" : ["lunch", "dinner"]
+    },
+    {
+        "name" : "White Rice",
+        "category" : ["breakfast","lunch", "dinner"]
+    },
+    {
+        "name" : "Beans",
+        "category" : ["lunch", "dinner"]
+    },
+    {
+        "name" : "Pancakes",
+        "category" : ["breakfast"]
+    },
+    {
+        "name" : "Pizza and Ice-cream",
+        "category" : ["junks"]
+    },
+    {
+        "name" : "Bread and Egg",
+        "category" : ["dinner"]
+    },
+    {
+        "name" : "Garri, rocks (ice-blocks), milk and groundnuts",
+        "category" : ["lunch", "dinner"]
+    }
+]
