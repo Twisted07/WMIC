@@ -189,6 +189,14 @@ function StoreItems( {SN, name, category, id} ) {
     setIsEditing(false);
   }
 
+  function handleDelete(item) {
+    const confirmation = confirm('Would you like to remove this item from list?');
+    if (!confirmation) return;
+    deleteFromStore(item);
+  }
+
+
+  
   return (
     <>
     {
@@ -202,7 +210,7 @@ function StoreItems( {SN, name, category, id} ) {
 
           <div>
             <button onClick={handleEdit}>Edit</button>
-            <button onClick={() => deleteFromStore(SN)}>Delete</button>
+            <button onClick={() => handleDelete(SN)}>Delete</button>
           </div>
         </div>
       
